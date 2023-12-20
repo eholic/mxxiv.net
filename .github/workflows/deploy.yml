@@ -10,6 +10,5 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '16.x'
-      - name: Install dependencies
-        run: yarn --frozen-lockfile
-      - run: vue-cli-service build
+      - run: yarn --frozen-lockfile
+      - run: yarn build
