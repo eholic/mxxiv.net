@@ -68,7 +68,7 @@
             ratio="is-5by2"
           />
           <a href='https://github.com/eholic/ofxer' target='_blank' style='text-decoration: none;'><p>A script of converting CSV files exported from your credit and bank account</p></a><br>
-          <a class='github-button' href='https://github.com/eholic/ofxer' data-size='large' data-show-count='true' aria-label='Star eholic/ofxer on GitHub'>Star</a>
+          <iframe src="https://ghbtns.com/github-btn.html?user=eholic&repo=ofxer&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
         </div>
       </div>
 
