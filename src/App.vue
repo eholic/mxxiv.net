@@ -13,10 +13,8 @@
       <div class="content has-text-centered">
         <p>
           Powered by
-          <a href="https://vuejs.org/">Vue.js</a>,
-          <a href="https://webpack.js.org/">webpack</a>,
-          <a href="https://bulma.io/">BULMA</a>, and
-          <a href="https://cloud.google.com/appengine/">Google App Engine</a>
+          <a href="https://vuejs.org/">Vue.js</a> and
+          <a href="https://bulma.io/">BULMA</a>
           .
         </p>
       </div>
@@ -33,6 +31,3 @@ export default {
   components: { Splash, NavBar },
 };
 </script>
-
-<style lang="scss">
-</style>

@@ -6,10 +6,10 @@
       class="pagelink"
     />
     <h2>Apps</h2>
-    <div class="tile is-ancestor">
+    <div class="grid is-col-min-12">
 
-      <div class="tile is-parent is-6">
-        <div class="tile is-child box has-text-centered">
+      <div class="cell">
+        <div class="box has-text-centered">
           <tile-child
             title="tilt"
             subtitle="Just tilt!"
@@ -22,8 +22,8 @@
         </div>
       </div>
 
-      <div class="tile is-parent">
-        <div class="tile is-child box has-text-centered">
+      <div class="cell">
+        <div class="box has-text-centered">
           <tile-child
             title="score"
             subtitle="Your scoreboard in android wear."
@@ -34,11 +34,9 @@
           <a href='http://play.google.com/store/apps/details?id=net.mxxiv.score&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width='50%' height='50%'/></a>
         </div>
       </div>
-    </div>
 
-    <div class="tile is-ancestor">
-      <div class="tile is-parent is-6">
-        <div class="tile is-child box has-text-centered">
+      <div class="cell">
+        <div class="box has-text-centered">
           <router-link to="/pgo#pgo_top">
             <tile-child
               title="Pokémon GO Clipboard"
@@ -58,35 +56,50 @@
       class="pagelink"
     />
     <h2>Labs</h2>
-    <div class="tile is-ancestor">
-      <div class="tile is-parent is-6">
-        <div class="tile is-child box has-text-centered">
+    <div class="grid is-col-min-12">
+      <div class="cell">
+        <div class="box has-text-centered">
           <tile-child
             title="Ofxer"
             subtitle="CSV to OFX converter"
             :img="require('../assets/ofxer.png')"
-            ratio="is-5by2"
+            ratio="is-128x128"
           />
-          <a href='https://github.com/eholic/ofxer' target='_blank' style='text-decoration: none;'><p>A script of converting CSV files exported from your credit and bank account</p></a><br>
-          <iframe src="https://ghbtns.com/github-btn.html?user=eholic&repo=ofxer&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+          <a href='https://github.com/eholic/ofxer' target='_blank' style='text-decoration: none;'>
+            <p>A script of converting CSV files exported from your credit and bank account</p>
+          </a>
         </div>
       </div>
 
-      <div class="tile is-parent">
-        <div class="tile is-child box has-text-centered">
+      <div class="cell">
+        <div class="box has-text-centered">
           <router-link to="/stars#stars_top">
             <tile-child
               title="Stars Visualization"
-              subtitle="See your stars from a new perspective."
+              subtitle="See your star heatmap."
               :img="require('../assets/map.png')"
-              ratio="is-192x192"
+              ratio="is-128x128"
             />
-            <p>I'm usually marking stars at where I visted on Google Maps. My motivation is to visualize those stars as heatmap.</p><br> <!-- eslint-disable-line -->
+            <p>I'm usually marking stars at where I visted on Google Maps. My motivation is to visualize those stars as heatmap.</p>
           </router-link>
         </div>
       </div>
 
-    </div> <!-- tile is-ancestor -->
+      <div class="cell">
+        <div class="box has-text-centered">
+          <tile-child
+            title="pandaq"
+            subtitle="An easy pandas query-string builder."
+            :img="'https://pandas.pydata.org/static/img/pandas_secondary.svg'"
+            ratio="is-128x128"
+          />
+          <a href='https://github.com/eholic/pandaq' target='_blank' style='text-decoration: none;'>
+            <p>This library provides q method for easy querying of pandas.DataFrame.</p>
+          </a>
+        </div>
+      </div>
+
+    </div> <!-- grid -->
 
   </div> <!-- container-->
 

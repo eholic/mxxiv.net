@@ -1,25 +1,31 @@
-@charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+// @use "bulma/sass/utilities" with (
+//   $family-primary: '"Noto Sans", sans-serif'
+// );
+// 
+// // Override Sass variables from the /form folder
+// @use "bulma/sass/form" with (
+//   $input-shadow: none
+// );
+// 
+// // Import the components you need
+// @forward "bulma/sass/base";
+// @forward "bulma/sass/components/card";
+// @forward "bulma/sass/components/modal";
+// @forward "bulma/sass/components/navbar";
+// @forward "bulma/sass/elements/button";
+// @forward "bulma/sass/elements/icon";
+// @forward "bulma/sass/elements/content";
+// @forward "bulma/sass/elements/notification";
+// @forward "bulma/sass/elements/progress";
+// @forward "bulma/sass/elements/tag";
+// @forward "bulma/sass/layout/footer";
+// 
+// // Import the themes so that all CSS variables have a value
+// @forward "bulma/sass/themes";
 
-// Customization
-// 1. Import the initial variables
-@import "~bulma/sass/utilities/initial-variables";
-// // 2. Set your own initial variables
-$dimensions: 16 24 32 48 64 96 128 160 192 256;
-// // Update the blue shade, used for links
-// $blue: #06bcef;
-// // Add pink and its invert
-// $pink: #ff8080;
-// $pink-invert: #fff;
-// // Update the sans-serif font family
-$family-primary: "Noto Sans", sans-serif;
-// // 3. Set the derived variables
-// // Use the new pink as the primary color
-// $primary: $pink;
-// $primary-invert: $pink-invert;
-// // 4. Import the rest of Bulma
-@import "~bulma/bulma";
-@import '~bulma-slider';
+@import "bulma";
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 
 .content {
   padding: 8vw;

@@ -1,5 +1,7 @@
 module.exports = {
   presets: [
-    '@vue/app',
+    '@vue/cli-plugin-babel/preset'
   ],
-};
+  "plugins": [["@babel/plugin-transform-private-methods"]],
+  "compact": true,
+}

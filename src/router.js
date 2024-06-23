@@ -1,14 +1,11 @@
-import Vue from 'vue';
-import Router from 'vue-router';
+import {createRouter, createWebHashHistory} from 'vue-router';
 import TopPage from './components/TopPage.vue';
 import Pgo from './components/Pgo.vue';
 import Stars from './components/Stars.vue';
 
-Vue.use(Router);
-
-export default new Router({
-  // mode: 'history',
-  base: process.env.BASE_URL,
+export default createRouter({
+  history: createWebHashHistory(),
+  // base: process.env.BASE_URL,
   routes: [
     {
       path: '/',
