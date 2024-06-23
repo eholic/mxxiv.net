@@ -8,12 +8,8 @@
       <router-link to="/" class="navbar-item">
         Top
       </router-link>
-      <router-link to="/#apps" class="navbar-item">
-        Apps
-      </router-link>
-      <router-link to="/#labs" class="navbar-item">
-      Labs
-      </router-link>
+      <router-link :to="{name: 'TopPage', hash: '#apps'}" class="navbar-item">Apps</router-link>
+      <router-link :to="{name: 'TopPage', hash: '#labs'}" class="navbar-item">Labs</router-link>
       <a
         class="navbar-item"
         href="https://github.com/eholic"

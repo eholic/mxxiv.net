@@ -31,18 +31,15 @@
     <h2 class="title">Filters</h2>
 
     <div
-      v-for="i in Math.floor(filters.length/2)+1"
-      :key="i"
+      v-for="i in Math.floor(filters.length/2)"
+      :key="filters[(i-1)*2].key"
       class="columns"
     >
       <div class="column">
         <copy-form :dict="filters[(i-1)*2]" />
       </div>
       <div class="column">
-        <copy-form
-          v-if="(i-1)*2+1<filters.length"
-          :dict="filters[(i-1)*2+1]"
-        />
+        <copy-form :dict="filters[(i-1)*2+1]" />
       </div>
     </div>
   </div>

@@ -1,11 +1,10 @@
-import {createRouter, createWebHashHistory} from 'vue-router';
+import {createRouter, createWebHistory} from 'vue-router';
 import TopPage from './components/TopPage.vue';
 import Pgo from './components/Pgo.vue';
 import Stars from './components/Stars.vue';
 
 export default createRouter({
-  history: createWebHashHistory(),
-  // base: process.env.BASE_URL,
+  history: createWebHistory(),
   routes: [
     {
       path: '/',
@@ -34,7 +33,7 @@ export default createRouter({
   ],
   scrollBehavior(to, from, savedPosition) {
     if (to.hash) {
-      return { selector: to.hash };
+      return { el: to.hash, top: 50 };
     }
     return { x: 0, y: 0 };
   },

@@ -73,7 +73,7 @@
 
       <div class="cell">
         <div class="box has-text-centered">
-          <router-link to="/stars#stars_top">
+          <router-link :to="{name: 'Stars', hash: '#stars_top'}">
             <tile-child
               title="Stars Visualization"
               subtitle="See your star heatmap."
