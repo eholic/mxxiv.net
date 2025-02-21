@@ -31,7 +31,51 @@
             ratio="is-96x96"
           />
           <p><strong>score</strong> is an extremely simple scoring app. Just tap left and right to count up points. You don't have to remember your game score anymore.</p><br> <!-- eslint-disable-line -->
-          <a href='http://play.google.com/store/apps/details?id=net.mxxiv.score&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width='50%' height='50%'/></a>
+
+          <div class="columns">
+
+            <div class="column">
+              <a
+                href='http://play.google.com/store/apps/details?id=net.mxxiv.score&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
+                  alt='Get it on Google Play'
+                  src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'
+                  width='230px'
+                  style="vertical-align: middle"
+                /></a>
+            </div>
+
+            <div class="column">
+              <a href="https://apps.apple.com/us/app/score-for-watchos/id6741359203?itscg=30200&itsct=apps_box_badge&mttnsubad=6741359203" style="display: inline-block;">
+              <img
+                  src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1738454400"
+                  alt="Download on the App Store" style="width: 196px; vertical-align: middle; object-fit: contain;" />
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="cell">
+        <div class="box has-text-centered">
+          <tile-child
+            title="湘南 - 時刻表"
+            subtitle="Shonan Express Timeboard"
+            :img="require('../assets/shonan.png')"
+            ratio="is-96x96"
+          />
+          <p>
+            特急「湘南」の往路と復路を簡単に確認できる時刻表です。(コンプリケーション対応)<br>
+            <a href="mailto:support@mxxiv.net?subject=湘南 - 時刻表">お問い合わせ</a>
+
+          </p><br> <!-- eslint-disable-line -->
+          <a href="https://apps.apple.com/jp/app/%E6%B9%98%E5%8D%97-%E6%99%82%E5%88%BB%E8%A1%A8/id6741827272" style="display: inline-block;">
+          <img
+              src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1738454400"
+              alt="Download on the App Store" style="width: 120px; vertical-align: middle; object-fit: contain;" />
+          </a>
+
         </div>
       </div>
 

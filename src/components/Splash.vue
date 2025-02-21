@@ -6,7 +6,7 @@
     <h1 class="heading">
       <span class="t1">MXXIV</span><span class="t2">.net</span>
     </h1>
-    <small class="codename">&copy; 2024 MXXIV.net</small>
+    <small class="codename">&copy; 2010-2025 MXXIV.net</small>
   </div>
 </template>
 
