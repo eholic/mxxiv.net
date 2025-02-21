@@ -2,6 +2,7 @@ import {createRouter, createWebHistory} from 'vue-router';
 import TopPage from './components/TopPage.vue';
 import Pgo from './components/Pgo.vue';
 import Stars from './components/Stars.vue';
+import Shonan from './components/ShonanExpress.vue';
 
 export default createRouter({
   history: createWebHistory(),
@@ -28,6 +29,14 @@ export default createRouter({
       component: Stars,
       meta: {
         title: 'Stars Visualization | mxxiv.net',
+      },
+    },
+    {
+      path: '/shonanexpress',
+      name: 'ShonanExpress',
+      component: Shonan,
+      meta: {
+        title: 'Shonan Express | mxxiv.net',
       },
     },
   ],
