@@ -31,10 +31,11 @@
     </div>
 
     <ul>
-      <li><a href="mailto:support@mxxiv.net">お問い合わせ: support@mxxiv.net</a></li>
       <li><a href="https://github.com/eholic/privacy_policy/blob/main/shonanexpress.md">Privacy Policy</a></li>
       <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">EULA</a></li>
     </ul>
+
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSesaV8LTOD7_4Mexy4roifgGaU8TFVEwuJJgl9Mp7inWOqkCA/viewform?embedded=true" width="640" height="613" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
   </div>
 </template>
